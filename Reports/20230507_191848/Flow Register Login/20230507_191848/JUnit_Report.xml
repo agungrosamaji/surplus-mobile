@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flow Register Login" time="152.047" tests="4" failures="1" errors="0">
+   <testsuite name="Flow Register Login" tests="4" failures="1" errors="0" time="152.047" skipped="0" timestamp="2023-05-07 19:18:50" hostname="agung - DESKTOP-N4OK8PU" id="Test Suites/Flow Register Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_arm - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Project\\Katalon\\Surplus\\surplus-mobile\\Reports\\20230507_191848\\Flow Register Login\\20230507_191848"/>
+         <property name="logFiles" value="D:\\Project\\Katalon\\Surplus\\surplus-mobile\\Reports\\20230507_191848\\Flow Register Login\\20230507_191848\\appium.log, D:\\Project\\Katalon\\Surplus\\surplus-mobile\\Reports\\20230507_191848\\Flow Register Login\\20230507_191848\\execution0.log"/>
+         <property name="attachments" value="D:\\Project\\Katalon\\Surplus\\surplus-mobile\\Reports\\20230507_191848\\Flow Register Login\\20230507_191848\\1683462037662.png"/>
+         <property name="hostName" value="agung - DESKTOP-N4OK8PU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.19.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.19.1"/>
+         <property name="deviceModel" value="sdk_gphone_x86_arm"/>
+         <property name="hostAddress" value="192.168.100.5"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_arm - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Android/Register/Register Success" time="35.897" classname="Test Cases/Android/Register/Register Success" status="PASSED">
+         <system-out><![CDATA[2023-05-07 19:18:51 - [TEST_CASE][PASSED] - Test Cases/Android/Register/Register Success: Test Cases/Android/Register/Register Success
+
+2023-05-07 19:18:51 - [TEST_STEP][PASSED] - Common.setGVariable(): null
+
+2023-05-07 19:18:51 - [TEST_STEP][PASSED] - Common.startApp(): Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:18:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-07 19:18:53 - [MESSAGE][INFO] - Appium server started on port 60,055
+
+2023-05-07 19:19:07 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:19:07 - [TEST_STEP][PASSED] - comment("Case : Register Success"): Case : Register Success
+
+2023-05-07 19:19:07 - [MESSAGE][INFO] - Case : Register Success
+
+2023-05-07 19:19:07 - [TEST_STEP][PASSED] - comment("Step : Tap link to page register"): Step : Tap link to page register
+
+2023-05-07 19:19:07 - [MESSAGE][INFO] - Step : Tap link to page register
+
+2023-05-07 19:19:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Login/TextView - Register"), 0): Tapped on element 'Object Repository/Android/Login/TextView - Register'
+
+2023-05-07 19:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/TextView - Register'
+
+2023-05-07 19:19:07 - [TEST_STEP][PASSED] - comment("Step : Tap field Name and set value"): Step : Tap field Name and set value
+
+2023-05-07 19:19:07 - [MESSAGE][INFO] - Step : Tap field Name and set value
+
+2023-05-07 19:19:07 - [TEST_STEP][PASSED] - register.setName(G_name): Keyboard is hidden
+
+2023-05-07 19:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:10 - [MESSAGE][PASSED] - Text 'qq' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:11 - [TEST_STEP][PASSED] - comment("Step : Tap field Email and set value"): Step : Tap field Email and set value
+
+2023-05-07 19:19:11 - [MESSAGE][INFO] - Step : Tap field Email and set value
+
+2023-05-07 19:19:11 - [TEST_STEP][PASSED] - register.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:19:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:13 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:15 - [TEST_STEP][PASSED] - comment("Step : Tap field Password and set value"): Step : Tap field Password and set value
+
+2023-05-07 19:19:15 - [MESSAGE][INFO] - Step : Tap field Password and set value
+
+2023-05-07 19:19:15 - [TEST_STEP][PASSED] - register.setPassword(G_password): Keyboard is hidden
+
+2023-05-07 19:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:16 - [MESSAGE][PASSED] - Text 'qqqq' has been set to element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:19:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:20 - [TEST_STEP][PASSED] - comment("Step : Tap field Confirm Password and set value"): Step : Tap field Confirm Password and set value
+
+2023-05-07 19:19:20 - [MESSAGE][INFO] - Step : Tap field Confirm Password and set value
+
+2023-05-07 19:19:20 - [TEST_STEP][PASSED] - register.setConfirmPassword(G_password): Keyboard is hidden
+
+2023-05-07 19:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:22 - [MESSAGE][PASSED] - Text 'qqqq' has been set to element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:19:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:25 - [TEST_STEP][PASSED] - comment("Step : Tap button Register to confirm"): Step : Tap button Register to confirm
+
+2023-05-07 19:19:25 - [MESSAGE][INFO] - Step : Tap button Register to confirm
+
+2023-05-07 19:19:25 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:25 - [TEST_STEP][PASSED] - comment("Step : Check toast confirm registration failed - email already exists"): Step : Check toast confirm registration failed - email already exists
+
+2023-05-07 19:19:25 - [MESSAGE][INFO] - Step : Check toast confirm registration failed - email already exists
+
+2023-05-07 19:19:25 - [TEST_STEP][PASSED] - register.checkToastStatus(): Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+
+2023-05-07 19:19:27 - [MESSAGE][WARNING] - Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+
+2023-05-07 19:19:27 - [TEST_STEP][PASSED] - comment("Step : Check toast confirm registration successful"): Step : Check toast confirm registration successful
+
+2023-05-07 19:19:27 - [MESSAGE][INFO] - Step : Check toast confirm registration successful
+
+2023-05-07 19:19:27 - [TEST_STEP][PASSED] - register.checkToastRegisterSuccess(): Element 'Object Repository/Android/Register/TextView - Registration Successful' is exist
+
+2023-05-07 19:19:27 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Register/TextView - Registration Successful' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Register/Register Failed" time="71.143" classname="Test Cases/Android/Register/Register Failed" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Android/Register/Register Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)
+"/>
+         <system-out><![CDATA[2023-05-07 19:19:27 - [TEST_CASE][FAILED] - Test Cases/Android/Register/Register Failed: Test Cases/Android/Register/Register Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)
+
+
+2023-05-07 19:19:27 - [TEST_STEP][PASSED] - Common.startApp(): Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:19:36 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:19:36 - [TEST_STEP][PASSED] - comment("Step : Tap link to page register"): Step : Tap link to page register
+
+2023-05-07 19:19:36 - [MESSAGE][INFO] - Step : Tap link to page register
+
+2023-05-07 19:19:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/Login/TextView - Register"), 0): Tapped on element 'Object Repository/Android/Login/TextView - Register'
+
+2023-05-07 19:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/TextView - Register'
+
+2023-05-07 19:19:37 - [TEST_STEP][PASSED] - comment("Case : Field Name empty"): Case : Field Name empty
+
+2023-05-07 19:19:37 - [MESSAGE][INFO] - Case : Field Name empty
+
+2023-05-07 19:19:37 - [TEST_STEP][PASSED] - register.setName(""): Keyboard is hidden
+
+2023-05-07 19:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:40 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:41 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:42 - [TEST_STEP][PASSED] - register.verifyFieldName(): Element 'Object Repository/Android/Register/TextView - Enter Full Name' is exist
+
+2023-05-07 19:19:42 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Register/TextView - Enter Full Name' is exist
+
+2023-05-07 19:19:42 - [TEST_STEP][PASSED] - comment("Case : Field Email empty"): Case : Field Email empty
+
+2023-05-07 19:19:42 - [MESSAGE][INFO] - Case : Field Email empty
+
+2023-05-07 19:19:42 - [TEST_STEP][PASSED] - register.setName(G_name): Keyboard is hidden
+
+2023-05-07 19:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:44 - [MESSAGE][PASSED] - Text 'qq' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:45 - [TEST_STEP][PASSED] - register.setEmail(""): Keyboard is hidden
+
+2023-05-07 19:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:47 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:48 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:19:49 - [TEST_STEP][PASSED] - register.verifyFieldEmail(): Element 'Object Repository/Android/Register/TextView - Enter Valid Email' is exist
+
+2023-05-07 19:19:49 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Register/TextView - Enter Valid Email' is exist
+
+2023-05-07 19:19:49 - [TEST_STEP][PASSED] - comment("Case : Field Password empty"): Case : Field Password empty
+
+2023-05-07 19:19:49 - [MESSAGE][INFO] - Case : Field Password empty
+
+2023-05-07 19:19:49 - [TEST_STEP][PASSED] - register.setName(G_name): Keyboard is hidden
+
+2023-05-07 19:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:51 - [MESSAGE][PASSED] - Text 'qq' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:19:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:52 - [TEST_STEP][PASSED] - register.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:19:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:54 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:19:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:19:55 - [TEST_STEP][PASSED] - register.setPassword(""): Keyboard is hidden
+
+2023-05-07 19:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:19:57 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:20:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:01 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:01 - [TEST_STEP][PASSED] - register.verifyFieldPassword(): Element 'Object Repository/Android/Register/TextView - Enter Password' is exist
+
+2023-05-07 19:20:02 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Register/TextView - Enter Password' is exist
+
+2023-05-07 19:20:02 - [TEST_STEP][PASSED] - comment("Case : Field Confirm Password empty"): Case : Field Confirm Password empty
+
+2023-05-07 19:20:02 - [MESSAGE][INFO] - Case : Field Confirm Password empty
+
+2023-05-07 19:20:02 - [TEST_STEP][PASSED] - register.setName(G_name): Keyboard is hidden
+
+2023-05-07 19:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:04 - [MESSAGE][PASSED] - Text 'qq' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:20:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:05 - [TEST_STEP][PASSED] - register.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:07 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:20:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:08 - [TEST_STEP][PASSED] - register.setPassword(G_password): Keyboard is hidden
+
+2023-05-07 19:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:10 - [MESSAGE][PASSED] - Text 'qqqq' has been set to element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:20:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:13 - [TEST_STEP][PASSED] - register.setConfirmPassword(""): Keyboard is hidden
+
+2023-05-07 19:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:15 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:20:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:18 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:19 - [TEST_STEP][PASSED] - register.verifyFieldConfirmPassword(): Element 'Object Repository/Android/Register/TextView - Password Does Not Matches' is exist
+
+2023-05-07 19:20:19 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Register/TextView - Password Does Not Matches' is exist
+
+2023-05-07 19:20:19 - [TEST_STEP][PASSED] - comment("Case : Email Already Exists"): Case : Email Already Exists
+
+2023-05-07 19:20:19 - [MESSAGE][INFO] - Case : Email Already Exists
+
+2023-05-07 19:20:19 - [TEST_STEP][PASSED] - register.setName(G_name): Keyboard is hidden
+
+2023-05-07 19:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:20:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:21 - [MESSAGE][PASSED] - Text 'qq' has been set to element 'Object Repository/Android/Register/EditText - Name'
+
+2023-05-07 19:20:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:22 - [TEST_STEP][PASSED] - register.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:24 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Register/EditText - Email'
+
+2023-05-07 19:20:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:26 - [TEST_STEP][PASSED] - register.setPassword(G_password): Keyboard is hidden
+
+2023-05-07 19:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:27 - [MESSAGE][PASSED] - Text 'qqqq' has been set to element 'Object Repository/Android/Register/EditText - Password'
+
+2023-05-07 19:20:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:31 - [TEST_STEP][PASSED] - register.setConfirmPassword(""): Keyboard is hidden
+
+2023-05-07 19:20:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:20:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:33 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Register/EditText - Confirm Password'
+
+2023-05-07 19:20:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:36 - [TEST_STEP][PASSED] - register.tapButtonRegister(): Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Register/Button - REGISTER'
+
+2023-05-07 19:20:36 - [TEST_STEP][FAILED] - register.checkToastEmailExist(): Failed to check for element 'Object Repository/Android/Register/TextView - Email Already Exists' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)
+)
+
+2023-05-07 19:20:37 - [MESSAGE][FAILED] - Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+
+2023-05-07 19:20:38 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Android/Register/TextView - Email Already Exists' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)
+)
+[[ATTACHMENT|D:\\Project\\Katalon\\Surplus\\surplus-mobile\\Reports\\20230507_191848\\Flow Register Login\\20230507_191848\\1683462037662.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-07 19:19:27 - [TEST_CASE][FAILED] - Test Cases/Android/Register/Register Failed: Test Cases/Android/Register/Register Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Login/Login Success" time="20.73" classname="Test Cases/Android/Login/Login Success" status="PASSED">
+         <system-out><![CDATA[2023-05-07 19:20:38 - [TEST_CASE][PASSED] - Test Cases/Android/Login/Login Success: Test Cases/Android/Login/Login Success
+
+2023-05-07 19:20:38 - [TEST_STEP][PASSED] - Common.startApp(): Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:20:48 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:20:48 - [TEST_STEP][PASSED] - comment("Case : Login Success"): Case : Login Success
+
+2023-05-07 19:20:48 - [MESSAGE][INFO] - Case : Login Success
+
+2023-05-07 19:20:48 - [TEST_STEP][PASSED] - comment("Step : Set Email"): Step : Set Email
+
+2023-05-07 19:20:48 - [MESSAGE][INFO] - Step : Set Email
+
+2023-05-07 19:20:48 - [TEST_STEP][PASSED] - login.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:50 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:20:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:51 - [TEST_STEP][PASSED] - comment("Step : Set Password"): Step : Set Password
+
+2023-05-07 19:20:51 - [MESSAGE][INFO] - Step : Set Password
+
+2023-05-07 19:20:51 - [TEST_STEP][PASSED] - login.setPassword(G_password): Keyboard is hidden
+
+2023-05-07 19:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/EditText - Password'
+
+2023-05-07 19:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:53 - [MESSAGE][PASSED] - Text 'qqqq' has been set to element 'Object Repository/Android/Login/EditText - Password'
+
+2023-05-07 19:20:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:20:57 - [TEST_STEP][PASSED] - comment("Step : Tap Login Button"): Step : Tap Login Button
+
+2023-05-07 19:20:57 - [MESSAGE][INFO] - Step : Tap Login Button
+
+2023-05-07 19:20:57 - [TEST_STEP][PASSED] - login.tapLoginButton(): Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:20:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:20:57 - [TEST_STEP][PASSED] - comment("Step : Verify Login Success"): Step : Verify Login Success
+
+2023-05-07 19:20:57 - [MESSAGE][INFO] - Step : Verify Login Success
+
+2023-05-07 19:20:57 - [TEST_STEP][PASSED] - login.verifyLoginSuccess(): Actual text and expected text of test object 'Object Repository/Android/Dashboad/TextView - Account Password' are matched.
+
+2023-05-07 19:20:58 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Dashboad/TextView - Android NewLine Learning' is exist
+
+2023-05-07 19:20:58 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Dashboad/TextView - Hello,' is exist
+
+2023-05-07 19:20:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android/Dashboad/TextView - Email' are matched.
+
+2023-05-07 19:20:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android/Dashboad/TextView - Account Name' are matched.
+
+2023-05-07 19:20:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android/Dashboad/TextView - Account Email' are matched.
+
+2023-05-07 19:20:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android/Dashboad/TextView - Account Password' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/Login/Login Failed" time="23.963" classname="Test Cases/Android/Login/Login Failed" status="PASSED">
+         <system-out><![CDATA[2023-05-07 19:20:59 - [TEST_CASE][PASSED] - Test Cases/Android/Login/Login Failed: Test Cases/Android/Login/Login Failed
+
+2023-05-07 19:20:59 - [TEST_STEP][PASSED] - login.setGVariable("qq", "qq0@qq.com", "qq"): null
+
+2023-05-07 19:20:59 - [TEST_STEP][PASSED] - Common.startApp(): Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:21:09 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Katalon\Surplus\surplus-mobile\Android Apps\Login Test.apk'
+
+2023-05-07 19:21:09 - [TEST_STEP][PASSED] - comment("Case : Set Email Empty"): Case : Set Email Empty
+
+2023-05-07 19:21:09 - [MESSAGE][INFO] - Case : Set Email Empty
+
+2023-05-07 19:21:09 - [TEST_STEP][PASSED] - login.setEmail(""): Keyboard is hidden
+
+2023-05-07 19:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:21:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:11 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:21:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:21:13 - [TEST_STEP][PASSED] - login.tapLoginButton(): Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:21:13 - [TEST_STEP][PASSED] - login.verifyFieldEmail(): Element 'Object Repository/Android/Login/TextView - Enter Valid Email' is exist
+
+2023-05-07 19:21:14 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Login/TextView - Enter Valid Email' is exist
+
+2023-05-07 19:21:14 - [TEST_STEP][PASSED] - comment("Case : Set Password Empty"): Case : Set Password Empty
+
+2023-05-07 19:21:14 - [MESSAGE][INFO] - Case : Set Password Empty
+
+2023-05-07 19:21:14 - [TEST_STEP][PASSED] - login.setEmail(G_email): Keyboard is hidden
+
+2023-05-07 19:21:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:21:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:15 - [MESSAGE][PASSED] - Text 'qq0@qq.com' has been set to element 'Object Repository/Android/Login/EditText - Email'
+
+2023-05-07 19:21:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:21:17 - [TEST_STEP][PASSED] - login.setPassword(""): Keyboard is hidden
+
+2023-05-07 19:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/EditText - Password'
+
+2023-05-07 19:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:18 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Android/Login/EditText - Password'
+
+2023-05-07 19:21:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-05-07 19:21:22 - [TEST_STEP][PASSED] - login.tapLoginButton(): Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-07 19:21:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Login/Button - LOGIN'
+
+2023-05-07 19:21:22 - [TEST_STEP][PASSED] - login.verifyFieldPassword(): Element 'Object Repository/Android/Login/TextView - Enter Valid Password' is exist
+
+2023-05-07 19:21:22 - [MESSAGE][PASSED] - Element 'Object Repository/Android/Login/TextView - Enter Valid Password' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-07 19:18:50 - [TEST_SUITE][FAILED] - Flow Register Login: Test Cases/Android/Register/Register Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-05-07 19:18:50 - [TEST_SUITE][FAILED] - Flow Register Login: Test Cases/Android/Register/Register Failed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Android/Register/TextView - Email Already Exists' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at mobile.register.checkToastEmailExist(register.groovy:61)
+	at mobile.register$checkToastEmailExist$10.call(Unknown Source)
+	at Register Failed.run(Register Failed:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1683461928414.run(TempTestSuite1683461928414.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,115 @@
+{
+  "keywordFileContentHash": "B5D656723E8BB6555033FD1925997271",
+  "keywordClasses": [
+    {
+      "name": "mobile.register",
+      "keywordMethods": [
+        {
+          "name": "setName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "setEmail",
+          "parameters": [
+            {
+              "name": "email",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "setPassword",
+          "parameters": [
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "setConfirmPassword",
+          "parameters": [
+            {
+              "name": "confirm",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "tapButtonRegister",
+          "parameters": []
+        },
+        {
+          "name": "checkToastEmailExist",
+          "parameters": []
+        },
+        {
+          "name": "checkToastRegisterSuccess",
+          "parameters": []
+        },
+        {
+          "name": "checkToastStatus",
+          "parameters": []
+        },
+        {
+          "name": "verifyFieldName",
+          "parameters": []
+        },
+        {
+          "name": "verifyFieldEmail",
+          "parameters": []
+        },
+        {
+          "name": "verifyFieldPassword",
+          "parameters": []
+        },
+        {
+          "name": "verifyFieldConfirmPassword",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

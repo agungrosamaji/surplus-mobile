@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flow Register Login,,,,2023-05-07 19:18:50,2023-05-07 19:21:22,2m - 32.047s,FAILED
+,,,,,,,
+Test Cases/Android/Register/Register Success,,,,2023-05-07 19:18:51,2023-05-07 19:19:27,35.897s,PASSED
+Common.setGVariable(),,,,2023-05-07 19:18:51,2023-05-07 19:18:51,0.174s,PASSED
+Common.startApp(),,,,2023-05-07 19:18:51,2023-05-07 19:19:07,15.321s,PASSED
+"comment(""Case : Register Success"")",,,,2023-05-07 19:19:07,2023-05-07 19:19:07,0.035s,PASSED
+"comment(""Step : Tap link to page register"")",,,,2023-05-07 19:19:07,2023-05-07 19:19:07,0.004s,PASSED
+"tap(findTestObject(""Object Repository/Android/Login/TextView - Register""), 0)",,,,2023-05-07 19:19:07,2023-05-07 19:19:07,0.744s,PASSED
+"comment(""Step : Tap field Name and set value"")",,,,2023-05-07 19:19:07,2023-05-07 19:19:07,0.003s,PASSED
+register.setName(G_name),,,,2023-05-07 19:19:07,2023-05-07 19:19:11,4.052s,PASSED
+"comment(""Step : Tap field Email and set value"")",,,,2023-05-07 19:19:11,2023-05-07 19:19:11,0.002s,PASSED
+register.setEmail(G_email),,,,2023-05-07 19:19:11,2023-05-07 19:19:15,3.166s,PASSED
+"comment(""Step : Tap field Password and set value"")",,,,2023-05-07 19:19:15,2023-05-07 19:19:15,0.003s,PASSED
+register.setPassword(G_password),,,,2023-05-07 19:19:15,2023-05-07 19:19:20,5.090s,PASSED
+"comment(""Step : Tap field Confirm Password and set value"")",,,,2023-05-07 19:19:20,2023-05-07 19:19:20,0.001s,PASSED
+register.setConfirmPassword(G_password),,,,2023-05-07 19:19:20,2023-05-07 19:19:25,5.257s,PASSED
+"comment(""Step : Tap button Register to confirm"")",,,,2023-05-07 19:19:25,2023-05-07 19:19:25,0.002s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:19:25,2023-05-07 19:19:25,0.275s,PASSED
+"comment(""Step : Check toast confirm registration failed - email already exists"")",,,,2023-05-07 19:19:25,2023-05-07 19:19:25,0.002s,PASSED
+register.checkToastStatus(),,,,2023-05-07 19:19:25,2023-05-07 19:19:27,1.303s,PASSED
+"comment(""Step : Check toast confirm registration successful"")",,,,2023-05-07 19:19:27,2023-05-07 19:19:27,0.002s,PASSED
+register.checkToastRegisterSuccess(),,,,2023-05-07 19:19:27,2023-05-07 19:19:27,0.119s,PASSED
+,,,,,,,
+Test Cases/Android/Register/Register Failed,,,,2023-05-07 19:19:27,2023-05-07 19:20:38,1m - 11.143s,FAILED
+Common.startApp(),,,,2023-05-07 19:19:27,2023-05-07 19:19:36,9.442s,PASSED
+"comment(""Step : Tap link to page register"")",,,,2023-05-07 19:19:36,2023-05-07 19:19:36,0.002s,PASSED
+"tap(findTestObject(""Object Repository/Android/Login/TextView - Register""), 0)",,,,2023-05-07 19:19:36,2023-05-07 19:19:37,0.344s,PASSED
+"comment(""Case : Field Name empty"")",,,,2023-05-07 19:19:37,2023-05-07 19:19:37,0.004s,PASSED
+"register.setName("""")",,,,2023-05-07 19:19:37,2023-05-07 19:19:41,4.001s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:19:41,2023-05-07 19:19:42,0.808s,PASSED
+register.verifyFieldName(),,,,2023-05-07 19:19:42,2023-05-07 19:19:42,0.133s,PASSED
+"comment(""Case : Field Email empty"")",,,,2023-05-07 19:19:42,2023-05-07 19:19:42,0.002s,PASSED
+register.setName(G_name),,,,2023-05-07 19:19:42,2023-05-07 19:19:45,3.592s,PASSED
+"register.setEmail("""")",,,,2023-05-07 19:19:45,2023-05-07 19:19:48,3.107s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:19:48,2023-05-07 19:19:49,0.825s,PASSED
+register.verifyFieldEmail(),,,,2023-05-07 19:19:49,2023-05-07 19:19:49,0.138s,PASSED
+"comment(""Case : Field Password empty"")",,,,2023-05-07 19:19:49,2023-05-07 19:19:49,0.001s,PASSED
+register.setName(G_name),,,,2023-05-07 19:19:49,2023-05-07 19:19:52,3.092s,PASSED
+register.setEmail(G_email),,,,2023-05-07 19:19:52,2023-05-07 19:19:55,2.943s,PASSED
+"register.setPassword("""")",,,,2023-05-07 19:19:55,2023-05-07 19:20:01,5.274s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:20:01,2023-05-07 19:20:01,0.836s,PASSED
+register.verifyFieldPassword(),,,,2023-05-07 19:20:01,2023-05-07 19:20:02,0.121s,PASSED
+"comment(""Case : Field Confirm Password empty"")",,,,2023-05-07 19:20:02,2023-05-07 19:20:02,0.002s,PASSED
+register.setName(G_name),,,,2023-05-07 19:20:02,2023-05-07 19:20:05,3.145s,PASSED
+register.setEmail(G_email),,,,2023-05-07 19:20:05,2023-05-07 19:20:08,3.133s,PASSED
+register.setPassword(G_password),,,,2023-05-07 19:20:08,2023-05-07 19:20:13,5.102s,PASSED
+"register.setConfirmPassword("""")",,,,2023-05-07 19:20:13,2023-05-07 19:20:18,5.227s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:20:18,2023-05-07 19:20:19,0.903s,PASSED
+register.verifyFieldConfirmPassword(),,,,2023-05-07 19:20:19,2023-05-07 19:20:19,0.134s,PASSED
+"comment(""Case : Email Already Exists"")",,,,2023-05-07 19:20:19,2023-05-07 19:20:19,0.002s,PASSED
+register.setName(G_name),,,,2023-05-07 19:20:19,2023-05-07 19:20:22,3.217s,PASSED
+register.setEmail(G_email),,,,2023-05-07 19:20:22,2023-05-07 19:20:26,3.033s,PASSED
+register.setPassword(G_password),,,,2023-05-07 19:20:26,2023-05-07 19:20:31,5.208s,PASSED
+"register.setConfirmPassword("""")",,,,2023-05-07 19:20:31,2023-05-07 19:20:36,5.113s,PASSED
+register.tapButtonRegister(),,,,2023-05-07 19:20:36,2023-05-07 19:20:36,0.254s,PASSED
+register.checkToastEmailExist(),,,,2023-05-07 19:20:36,2023-05-07 19:20:38,1.702s,FAILED
+,,,,,,,
+Test Cases/Android/Login/Login Success,,,,2023-05-07 19:20:38,2023-05-07 19:20:59,20.730s,PASSED
+Common.startApp(),,,,2023-05-07 19:20:38,2023-05-07 19:20:48,9.673s,PASSED
+"comment(""Case : Login Success"")",,,,2023-05-07 19:20:48,2023-05-07 19:20:48,0.003s,PASSED
+"comment(""Step : Set Email"")",,,,2023-05-07 19:20:48,2023-05-07 19:20:48,0.002s,PASSED
+login.setEmail(G_email),,,,2023-05-07 19:20:48,2023-05-07 19:20:51,3.424s,PASSED
+"comment(""Step : Set Password"")",,,,2023-05-07 19:20:51,2023-05-07 19:20:51,0.002s,PASSED
+login.setPassword(G_password),,,,2023-05-07 19:20:51,2023-05-07 19:20:57,5.516s,PASSED
+"comment(""Step : Tap Login Button"")",,,,2023-05-07 19:20:57,2023-05-07 19:20:57,0.002s,PASSED
+login.tapLoginButton(),,,,2023-05-07 19:20:57,2023-05-07 19:20:57,0.223s,PASSED
+"comment(""Step : Verify Login Success"")",,,,2023-05-07 19:20:57,2023-05-07 19:20:57,0.001s,PASSED
+login.verifyLoginSuccess(),,,,2023-05-07 19:20:57,2023-05-07 19:20:59,1.637s,PASSED
+,,,,,,,
+Test Cases/Android/Login/Login Failed,,,,2023-05-07 19:20:59,2023-05-07 19:21:22,23.963s,PASSED
+"login.setGVariable(""qq"", ""qq0@qq.com"", ""qq"")",,,,2023-05-07 19:20:59,2023-05-07 19:20:59,0.001s,PASSED
+Common.startApp(),,,,2023-05-07 19:20:59,2023-05-07 19:21:09,10.026s,PASSED
+"comment(""Case : Set Email Empty"")",,,,2023-05-07 19:21:09,2023-05-07 19:21:09,0.004s,PASSED
+"login.setEmail("""")",,,,2023-05-07 19:21:09,2023-05-07 19:21:13,3.716s,PASSED
+login.tapLoginButton(),,,,2023-05-07 19:21:13,2023-05-07 19:21:13,0.799s,PASSED
+login.verifyFieldEmail(),,,,2023-05-07 19:21:13,2023-05-07 19:21:14,0.141s,PASSED
+"comment(""Case : Set Password Empty"")",,,,2023-05-07 19:21:14,2023-05-07 19:21:14,0.002s,PASSED
+login.setEmail(G_email),,,,2023-05-07 19:21:14,2023-05-07 19:21:17,3.017s,PASSED
+"login.setPassword("""")",,,,2023-05-07 19:21:17,2023-05-07 19:21:22,4.990s,PASSED
+login.tapLoginButton(),,,,2023-05-07 19:21:22,2023-05-07 19:21:22,0.806s,PASSED
+login.verifyFieldPassword(),,,,2023-05-07 19:21:22,2023-05-07 19:21:22,0.142s,PASSED
